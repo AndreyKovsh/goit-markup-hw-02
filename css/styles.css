@@ -1,3 +1,66 @@
+/* цвет сновного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+
 body {
-  background-color: tomato;
+  background-color: var(--background-color);
+  color: var(--primary-text-color: );
+}
+
+/* Шапка сайта */
+.logo {
+  color: var(--title-text-color);
+}
+.logo-blue {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+/* Навигация */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.mail {
+  color: var(--title-text-color);
+}
+.mail:hover {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.hero-title {
+  color: var(--background-color);
+}
+
+/* Привелегии */
+.section-title {
+  color: var(--title-text-color) 1;
+}
+.features .title {
+  color: var(--title-text-color);
+}
+.text {
+  color: var(--primary-text-color);
+}
+
+/* Чем мы занимаемся */
+/* Команда */
+.work-title {
+  color: var(--title-text-color);
+}
+.work-text {
+  color: var(--background-color);
 }
