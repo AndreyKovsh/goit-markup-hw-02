@@ -6,15 +6,16 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --background-color: #ffffff;
+  --primary-white-color: #ffffff;
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color: );
 }
 
 /* Шапка сайта */
+
 .logo {
   color: var(--title-text-color);
 }
@@ -26,6 +27,7 @@ body {
 }
 
 /* Навигация */
+
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -41,26 +43,50 @@ body {
 }
 
 /* Герой */
+
 .hero-title {
-  color: var(--background-color);
+  background-color: var(--primary-text-color);
+  color: var(--primary-white-color);
+}
+/* Кнопка */
+.button {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+}
+
+.button .primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button .secondary {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
 }
 
 /* Привелегии */
+
 .section-title {
   color: var(--title-text-color) 1;
 }
 .features .title {
   color: var(--title-text-color);
 }
-.text {
+.features .text {
   color: var(--primary-text-color);
 }
 
 /* Чем мы занимаемся */
+
+.work .title {
+  color: var(--primary-white-color);
+}
+
 /* Команда */
-.work-title {
+
+.team .title {
   color: var(--title-text-color);
 }
-.work-text {
-  color: var(--background-color);
+.team .text {
+  counter-reset: var(--primary-text-color);
 }
