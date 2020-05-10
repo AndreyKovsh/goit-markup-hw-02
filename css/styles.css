@@ -35,6 +35,9 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .mail {
   color: var(--title-text-color);
 }
@@ -54,12 +57,12 @@ body {
   color: var(--title-text-color);
 }
 
-.button .primary {
+.button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
-.button .secondary {
+.button.secondary {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
 }
