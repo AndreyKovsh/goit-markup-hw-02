@@ -7,6 +7,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --background-button-color: #f5f4fa;
 }
 
 body {
@@ -53,7 +54,7 @@ body {
 }
 /* Кнопка */
 .button {
-  background-color: var(--primary-white-color);
+  background-color: var(--background-button-color);
   color: var(--title-text-color);
 }
 
@@ -65,6 +66,10 @@ body {
 .button.secondary {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
+}
+.button.current {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* Привелегии */
