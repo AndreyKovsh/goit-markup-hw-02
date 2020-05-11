@@ -16,6 +16,10 @@
 .button {
   background-color: var(--background-button-color);
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 .button.primary {
   background-color: var(--accent-color);
@@ -89,12 +93,23 @@
 .main .title {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
 }
 .main .text {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
+
+  font-size: 16px;
+  line-height: 1.88;
 }
 .text.hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-size: 18px;
+  line-height: 1.56;
 }
