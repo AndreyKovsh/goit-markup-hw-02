@@ -8,6 +8,8 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --background-button-color: #f5f4fa;
+  --background-color: rgba(47, 48, 58, 0.8);
+  --background-future-color: #2f303a;
 }
 
 body {
@@ -75,7 +77,7 @@ body {
 /* Привелегии */
 
 .section-title {
-  color: var(--title-text-color) 1;
+  color: var(--title-text-color);
 }
 .features .title {
   color: var(--title-text-color);
@@ -86,15 +88,15 @@ body {
 
 /* Чем мы занимаемся */
 
-.work .title {
+.work .text {
   color: var(--primary-white-color);
+  background-color: var(--background-color);
 }
-
 /* Команда */
 
 .team .title {
   color: var(--title-text-color);
 }
 .team .text {
-  counter-reset: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
