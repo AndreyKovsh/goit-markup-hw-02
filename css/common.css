@@ -10,25 +10,45 @@
 
 body {
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color: );
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 3%;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Шапка сайта */
 
 .logo {
   color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-blue {
   color: var(--accent-color);
 }
+.logo-white {
+  color: var(--primary-white-color);
+}
 .list {
   list-style: none;
 }
-
+.link {
+  text-decoration: none;
+}
 /* Навигация */
 
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -39,7 +59,27 @@ body {
 }
 .mail {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
 }
 .mail:hover {
   color: var(--accent-color);
+}
+/* Футер */
+.footer {
+  color: var(--primary-white-color);
+  background-color: var(--background-future-color);
+}
+.footer .text {
+  color: var(--primary-white-color);
+  background-color: var(--background-future-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer .button {
+  background-color: var(--background-future-color);
 }
