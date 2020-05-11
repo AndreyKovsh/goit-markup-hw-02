@@ -1,70 +1,20 @@
-/* цвет сновного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* белый #FFFFFF */
-/* акцент #2196F3 */
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --background-button-color: #f5f4fa;
-  --background-color: rgba(47, 48, 58, 0.8);
-  --background-future-color: #2f303a;
-}
-
-body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color: );
-}
-
-/* Шапка сайта */
-
-.logo {
-  color: var(--title-text-color);
-}
-.logo-blue {
-  color: var(--accent-color);
-}
-.list {
-  list-style: none;
-}
-
-/* Навигация */
-
-.site-nav .link {
-  color: var(--title-text-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .link.current {
-  color: var(--accent-color);
-}
-.mail {
-  color: var(--title-text-color);
-}
-.mail:hover {
-  color: var(--accent-color);
-}
+/* Стили для index.html */
 
 /* Герой */
-
 .hero-title {
   background-color: var(--primary-text-color);
   color: var(--primary-white-color);
 }
+
 /* Кнопка */
 .button {
   background-color: var(--background-button-color);
   color: var(--title-text-color);
 }
-
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
-
 .button.secondary {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
