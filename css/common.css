@@ -74,6 +74,14 @@ body {
   color: var(--primary-white-color);
   background-color: var(--background-footer-color);
 }
+.footer .logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+}
 .footer .text {
   font-style: normal;
   font-weight: 400;
@@ -84,4 +92,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+.footer .text p {
+  color: rgba(255, 255, 255, 0.6);
 }
