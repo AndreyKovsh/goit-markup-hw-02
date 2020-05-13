@@ -5,7 +5,7 @@
   --primary-white-color: #ffffff;
   --background-button-color: #f5f4fa;
   --background-color: rgba(47, 48, 58, 0.8);
-  --background-future-color: #2f303a;
+  --background-footer-color: #2f303a;
 }
 
 body {
@@ -40,6 +40,7 @@ body {
 .link {
   text-decoration: none;
 }
+
 /* Навигация */
 
 .site-nav .link {
@@ -58,28 +59,29 @@ body {
   color: var(--accent-color);
 }
 .mail {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
 }
-.mail:hover {
+.mail:hover,
+.mail:focus {
   color: var(--accent-color);
 }
 /* Футер */
 .footer {
   color: var(--primary-white-color);
-  background-color: var(--background-future-color);
+  background-color: var(--background-footer-color);
 }
 .footer .text {
-  color: var(--primary-white-color);
-  background-color: var(--background-future-color);
-
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
 }
-.footer .button {
-  background-color: var(--background-future-color);
+.footer.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }

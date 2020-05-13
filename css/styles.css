@@ -21,6 +21,11 @@
   font-size: 16px;
   line-height: 1.63;
 }
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -28,10 +33,6 @@
 .button.secondary {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
-}
-.button.current {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
 }
 
 /* Привелегии */
